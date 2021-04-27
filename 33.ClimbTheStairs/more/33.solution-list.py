@@ -12,8 +12,6 @@ def ClimbTheStairs(n):
     return e
 
 for i in range(0,101):
-    n=int(input())
-    if 0<n<100:
-        print(ClimbTheStairs(n))
-
-
+    #n=int(input())
+    #if 0<n<100:
+    print(ClimbTheStairs(i))
