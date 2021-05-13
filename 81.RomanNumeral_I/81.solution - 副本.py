@@ -17,9 +17,3 @@ def toRomanNum(n,rn):
 n = eval(input())
 rn = ['I','V','X','L','C','D','M']
 print(toRomanNum(n,rn))
-
-
-class romannum:
-
-    def __init__(self):
-        
