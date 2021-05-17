@@ -3,7 +3,6 @@ def toRomanNum(n,rn):
     if len(rn) <= 1:
         return rn[0]*(n//10)
     t = n %10
-    print(n,t)
     if 0<=t <= 3:
         return toRomanNum(n//10,rn[2:]) + rn[0]*t
     if t==4:
@@ -17,9 +16,3 @@ def toRomanNum(n,rn):
 n = eval(input())
 rn = ['I','V','X','L','C','D','M']
 print(toRomanNum(n,rn))
-
-
-class romannum:
-
-    def __init__(self):
-        
