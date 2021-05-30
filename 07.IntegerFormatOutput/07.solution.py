@@ -1,0 +1,6 @@
+a=input()
+print('%-10s'%a)
+print('%10s'%a)
+a=a.replace('-','+')
+print('%-10s'%a)
+print('%10s'%a)
